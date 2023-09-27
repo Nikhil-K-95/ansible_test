@@ -1,0 +1,4 @@
+---
+# vars file for roletest
+pkg_name: httpd
+path: /var/www/html/

@@ -1,0 +1,7 @@
+---
+# handlers file for roletest
+- name: handler
+  service:
+   name: "{{ pkg_name }}"
+   state: restarted
+  listen: Restart service
