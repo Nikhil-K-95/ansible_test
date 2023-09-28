@@ -1,6 +1,7 @@
 ---
 - name: testing the project
   hosts: all
+  remote_user: user11
   tasks:
   - name: here the task starts
     debug:
