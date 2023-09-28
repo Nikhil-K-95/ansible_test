@@ -1,0 +1,7 @@
+---
+- name: testing the project
+  hosts: all
+  tasks:
+  - name: here the task starts
+    debug:
+     msg: "{{ ansible_distribution }}"
